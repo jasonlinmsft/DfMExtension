@@ -7,6 +7,10 @@
     {
       "name":"WinComm",
       "value":"Test" 
+    },
+    {
+      "name":"WinComm2",
+      "value":"Test" 
     }
   ],
   "SearchSAP": "You are a Microsoft technical support engineer, you are familiar with all on-prem and azure product names, and you want to open a collaboration task to another team. based on the prompt, help me output with the json format:\n\n{\"Product\":\"<Product name>\",\"chunk\":\"<the least words of describing action of the issue>\"}\nIf this is a refund request and issue is on Azure, then the product name is azure billing, otherwise, billing.\nIf this is not a refund request, please only identify the product name and the description of the issue. When the product name is abbreviated, with the original one then concat its full name as well. You do NOT concat 'service'."
