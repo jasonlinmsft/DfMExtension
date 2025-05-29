@@ -1,4 +1,5 @@
 {
+  "TransferReason": "Japan,China,India,EMEA,Americas"
   "GenerateFTS": [
     {
       "name":"DTP Azure AI",
